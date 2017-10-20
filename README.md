@@ -5,3 +5,4 @@ Der SmartArt-Interpreter ist Bestandteil des Markdown-Converters, welcher PowerP
 
 ![smartArts](https://github.com/Juliiia/Smart-Art-Interpreter/blob/master/img/smartarts.png)
 
+*es folgen zeitnah weiter Inhalte*
