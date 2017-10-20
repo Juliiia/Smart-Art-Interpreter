@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PlaceholderAndInfoXML"
+    targetNamespace="http://tempuri.org/PlaceholderAndInfoXML.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/PlaceholderAndInfoXML.xsd"
+    xmlns:mstns="http://tempuri.org/PlaceholderAndInfoXML.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="AllInfos">
+     <xs:complexType>
+       <xs:sequence>
+         <xs:element name="Placeholder" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="inCategory" maxOccurs="7">
+                  <xs:complexType>
+                    <xs:attribute name="category">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="list"/>
+                          <xs:enumeration value="process"/>
+                          <xs:enumeration value="cycle"/>
+                          <xs:enumeration value="hierarchy"/>
+                          <xs:enumeration value="relationship"/>
+                          <xs:enumeration value="matrix"/>
+                          <xs:enumeration value="pyramid"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:attribute>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="info" type="xs:string" maxOccurs="1"/>          
+              </xs:sequence>
+              <xs:attribute name="name" type="xs:string"></xs:attribute>
+              <xs:attribute name="descType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="startDescription"/>
+                    <xs:enumeration value="shortDesciption"/>
+                    <xs:enumeration value="longDesciption"/>
+                    <xs:enumeration value="MainPointDescription"/>
+                    <xs:enumeration value="SubPointDescription"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

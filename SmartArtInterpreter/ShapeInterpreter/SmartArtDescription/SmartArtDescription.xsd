@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SmartArtDescription"
+    targetNamespace="http://tempuri.org/SmartArtDescription.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/SmartArtDescription.xsd"
+    xmlns:mstns="http://tempuri.org/SmartArtDescription.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="SmartArt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="descriptionStart" type="xs:string"/>
+        <xs:element name ="category" maxOccurs="8">
+          <xs:complexType>            
+            <xs:sequence>      
+                    <xs:element name="subcategory" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="shortDescription" type="xs:string"/>
+                          <xs:element name="longDescription">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="description" type="xs:string"/>
+                                <xs:element name="descriptionForEachPoint">
+                                  <xs:complexType>
+                                    <xs:all>
+                                      <xs:element name="eachMainPoint" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                                      <xs:element name="eachSubPoint" type="xs:string"/>
+                                    </xs:all>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="subName" type="xs:string"/>
+                      </xs:complexType>
+                    </xs:element>
+                
+           </xs:sequence>
+            <xs:attribute name="name">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="list"/>
+                  <xs:enumeration value="process"/>
+                  <xs:enumeration value="cycle"/>
+                  <xs:enumeration value="hierarchy"/>
+                  <xs:enumeration value="relationship"/>
+                  <xs:enumeration value="matrix"/>
+                  <xs:enumeration value="pyramid"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+       </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+    
+</xs:schema>

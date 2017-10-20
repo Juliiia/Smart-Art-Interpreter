@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--TODO: Categorien anlegen: Pyramide  -->
+<SmartArt xmlns="http://tempuri.org/SmartArtDescription.xsd">
+  <descriptionStart>Hier ist eine SmartArt dargestellt:
+    Kategorie: #Kategorie#
+    Unterkategorie: #Unterkategorie#
+    Diese Darstellung beinhaltet #AnzahlHauptpunkte# Hauptpunkte #mit/ohneUP# Unterpunkten.
+  </descriptionStart>
+  <category name="list">
+    <subcategory subName="Einfache Blockliste">
+      <shortDescription>Darstellung als einfache verschachtelte Liste:</shortDescription>
+      <longDescription>
+        <description>
+            Jeder Hauptpunkt mit den dazugehörenden Unterpunkten befindet sich je in einem Rechteck. 
+            Die Rechtecke befinden sich je nach Platzbedarf nebeneinander und/oder Untereinander.
+        </description>
+        <descriptionForEachPoint>
+          <eachMainPoint>
+              Im #wievielterHP#. #Farbe# Block steht der Hauptpunkt #InhaltHauptpunkt#.
+            </eachMainPoint>
+          <eachSubPoint>
+              Es folge der Level #Level# Unterpunkt: #InhaltUnterpunkt#
+            </eachSubPoint>
+        </descriptionForEachPoint>
+      </longDescription>
+    </subcategory>
+  </category>
+  <category name="process">
+    <subcategory subName="Einfacher Prozess">
+      <shortDescription>
+          Darstellung als einfache Liste:
+        </shortDescription>
+      <longDescription>
+        <description>
+            Dieses Grafik stellt die #AnzahlHauptpunkte# Schritte eines Ablaufes dar. 
+            Jeder Hauptpunkt befindet sich in einem farbig hinterlegten Rechteck und bezeichnet einen Schritt. 
+            Die Unterpunkte befinden sich ebenfalls in diesem Rechteck unter dem Hauptpunkt. 
+            Zwischen den Rechtecken befinden sich dick gedruckte Pfeil, die jeweils nach rechts zum nächsten Rechteck zeigen.
+          </description>
+        <descriptionForEachPoint>
+          <eachMainPoint>
+              Im #wievielterHP#. #Farbe# Block steht der Hauptpunkt #InhaltHauptpunkt#.
+            </eachMainPoint>
+          <eachSubPoint>
+                Es folge der Level #Level# Unterpunkt: #InhaltUnterpunkt#
+            </eachSubPoint>
+        </descriptionForEachPoint>
+      </longDescription>
+    </subcategory>
+  </category>
+  <category name="cycle">
+    <subcategory subName="Einfacher Kreis">
+      <shortDescription>
+          Darstellung als einfache Liste beginnend mit dem Punkten oben in der Mitte und dann im Urzeigersinn:
+        </shortDescription>
+      <longDescription>
+        <description>
+            Diese Grafik beschreibt einen Zyklus.  
+            Jeder Hauptpunkt mit seinen Unterpunkten befindet sich innerhalb eines farbig hinterlegten Kreises. 
+            Alle #AnzahlHauptpunkte# Kreise sind ebenfalls in einer Kreisform angeordnet. 
+            Zwischen den Kreisen befindet sich je ein Pfeil welcher im Uhrzeigersinn auf den nächsten Kreis verweis. 
+            Der erste Hauptpunkt befindet sich im Kreis ganz oben in der Mitte und dann geht es im Uhrzeigersinn weiter.
+          </description>
+        <descriptionForEachPoint>
+          <eachMainPoint>
+Im #wievielterHP#. #Farbe# Kreis steht der Hauptpunkt: #InhaltHauptpunkt#.
+</eachMainPoint>
+          <eachSubPoint>
+Es folge der Level #Level# Unterpunkt: #InhaltUnterpunkt#.
+</eachSubPoint>
+        </descriptionForEachPoint>
+      </longDescription>
+    </subcategory>
+  </category>
+  <category name="hierarchy">
+    <subcategory subName="Organigramm">
+      <shortDescription>
+          Darstellung als verschachtelte Liste:
+        </shortDescription>
+      <longDescription>
+        <description>Die Grafik beschreibt eine Hierarchie, eine Art Baumstruktur.Im ersten Level befindet sich der Überbegriff einer jeden Baumstruktur. In dieser Grafik gibt es im ersten Level #AnzahlHauptpunkte#.</description>
+        <descriptionForEachPoint>
+          <eachMainPoint>Der #wievielterHP#. Oberbegriff lautet #InhaltHauptpunkt#, dieser befindet sich im Level 1.</eachMainPoint>
+          <eachSubPoint>
+            Der nächste Begriff befindet sich im Level #Level# und Lautet #InhaltUnterpunkt#. Von diesem aus verläuft eine Verbindungslinie zum letzten aufgeführten Punkt im Level #Leveldarueber#.
+          </eachSubPoint>
+        </descriptionForEachPoint>
+      </longDescription>
+    </subcategory>
+  </category>
+  <category name="relationship">
+    <subcategory subName="Balance">
+      <shortDescription>
+        Es gibt maximal zwei Hauptpunkte, welche je mit den Unterpunkten auf einer Seite der Waage stehen.
+        Hier dargestellt als Liste:
+      </shortDescription>
+      <longDescription>
+        <description>
+          Es sind maximal zwei Hauptpunkte möglich. Jeder Hauptpunkt und Unterpunkt befindet sich in einem farbig hinterlegten Rechteck mit abgerundeten Ecken.
+          Jeder Hauptpunkt liegt ganz oben, darunter befinden sich je die Unterpunkte übereinander gestapelt.
+          Ein Unterpunkt-Stapel befindet sich auf der linken und der andere auf der rechten Seite einer Wippe, welche leicht nach links geneigt ist. 
+          Die Wippe wird wird dargestellt durch ein langezogenes schmales Rechteck, welches auf der Spitze eines Dreick balanciert. 
+        </description>
+        <descriptionForEachPoint>
+          <eachMainPoint>
+            Der #wievielterHP# befindete sich oben #links/rechts# in einem #Farbe# Rechteck. 
+            Der Inhalt lautet: #InhaltHauptpunkt#.
+          </eachMainPoint>
+          <eachSubPoint>
+            Darunter liegt in einem Rechteck der Unterpunkt: #InhaltUnterpunkt#
+          </eachSubPoint>
+        </descriptionForEachPoint>
+      </longDescription>
+    </subcategory>
+  </category>
+  <category name="matrix">
+    <subcategory subName="Betitelte Matrix">
+      <shortDescription>
+        Alle Unterpunkte sind um den Hauptpunkt angeordnet. Darstelltung als verschachtelte Liste:
+      </shortDescription>
+      <longDescription>
+        <description>Diese Darstellung ordnete den Inhalt in einer Matrix an.Es existier nur ein Hauptpunkt mit maximal vier direkten (Level 2) Unterpunkten. Der Hauptpunkt befindet sich in einem Rechteck mit abgerundeten Ecken.Dieses Rechteck befindete sich in der Mitte eines größeren Rechtecks mit ebenfalls abgerundeten Ecken.Das größere Rechteck ist mittels eines Kreuzes in vier gleichgroße Teile Unterteilt. In jedem der vier Teile befindet sich je ein Unterpunkt.Dabei wird zeilenweise vorgegangen: oben links ist der erste Unterpunkt und unten rechts befindet sich der vierte Unterpunkt.Der Kreuzmittelpunkt befindet sich demnach genau verdeckt unter dem Rechteck mit dem Hauptpunkt. </description>
+        <descriptionForEachPoint>
+          <eachMainPoint>
+            Der Hauptpunkt steht in einem #Farbe# Rechteck und lautet: #InhaltHauptpunkt#.
+          </eachMainPoint>
+          <eachSubPoint>
+            Der Level #Level# Unterpunkt #XYposition# lautet: #InhaltUnterpunkt#.
+          </eachSubPoint>
+        </descriptionForEachPoint>
+      </longDescription>
+    </subcategory>
+  </category>
+  <category name="pyramid">
+    
+  </category>
+</SmartArt>

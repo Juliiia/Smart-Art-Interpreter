@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AllInfos xmlns="http://tempuri.org/PlaceholderAndInfoXML.xsd">
+  <Placeholder name="#Kategorie#" descType="startDescription">
+    <inCategory category="list"/>
+    <inCategory category="process"/>
+    <inCategory category="cycle"/>
+    <inCategory category="hierarchy"/>
+    <inCategory category="relationship"/>
+    <inCategory category="matrix"/>
+    <inCategory category="pyramid"/>
+    <info>
+      Platzhaltertyp: Wort
+      Dieser Platzhalter wird später durch den Kategorienamen ersetzt.</info>
+  </Placeholder>
+  <Placeholder name="#Unterkategorie#" descType="startDescription">
+    <inCategory category="list"/>
+    <inCategory category="process"/>
+    <inCategory category="cycle"/>
+    <inCategory category="hierarchy"/>
+    <inCategory category="relationship"/>
+    <inCategory category="matrix"/>
+    <inCategory category="pyramid"/>
+    <info>
+      Platzhaltertyp: Wort
+      Dieser Platzhalter wird später durch den Unterkategorienamen ersetzt.</info>
+  </Placeholder>
+  <Placeholder name="#AnzahlHauptpunkte#" descType="startDescription">
+    <inCategory category="list"/>
+    <inCategory category="process"/>
+    <inCategory category="cycle"/>
+    <inCategory category="hierarchy"/>
+    <inCategory category="relationship"/>
+    <inCategory category="matrix"/>
+    <inCategory category="pyramid"/>
+    <info>
+      Platzhaltertyp: ganze positive Zahl
+      Dieser Platzhalter wird durch die Anzahl der Level 1 Hauptpunkte ersetzt.</info>
+  </Placeholder>
+  <Placeholder name="#mit/ohneUP#" descType="startDescription">
+    <inCategory category="list"/>
+    <inCategory category="process"/>
+    <inCategory category="cycle"/>
+    <inCategory category="pyramid"/>
+    <inCategory category="relationship"/>
+    <inCategory category="matrix"/>
+    <inCategory category="hierarchy"/>
+    <info>
+      Platzhaltertyp: "mit" oder "ohne"
+      Dieser Platzhalter wird durch eines der obrigen Worte ersetzt um anzugeben ob Unterpunkte vorhanden sind.</info>
+  </Placeholder>
+  
+  <Placeholder name="#AnzahlHauptpunkte#" descType="longDesciption">
+    <inCategory category="list"/>
+    <inCategory category="process"/>
+    <inCategory category="cycle"/>
+    <inCategory category="pyramid"/>
+    <inCategory category="hierarchy"/>
+    <info>Platzhaltertyp: ganze positive Zahl
+      Dieser Platzhalter wird durch die Anzahl der Level 1 Hauptpunkte ersetzt.</info>
+  </Placeholder>
+  
+  <Placeholder name="#wievielterHP#" descType="MainPointDescription">
+    <inCategory category="list"/>
+    <inCategory category="process"/>
+    <inCategory category="cycle"/>
+    <inCategory category="pyramid"/>
+    <inCategory category="relationship"/>
+    <inCategory category="hierarchy"/>
+    <info>Platzhaltertyp: ganze posivite Zahl
+      Dieser Platzhalter nummeriert die Hauptpunkte durch, beginnent bei "1." Hauptpunkt.</info>
+  </Placeholder>
+  <Placeholder name="#Farbe#" descType="MainPointDescription">
+    <inCategory category="list"/>
+    <inCategory category="process"/>
+    <inCategory category="cycle"/>
+    <inCategory category="pyramid"/>
+    <inCategory category="relationship"/>
+    <inCategory category="matrix"/>
+    <inCategory category="hierarchy"/>
+    <info>Platzhaltertyp: Wort
+      Dieser Platzhalter wird durch das Farbwort der Hintergrundfarbe der umgebenden Form ersetzt.</info>
+  </Placeholder>
+  <Placeholder name="#InhaltHauptpunkt#" descType="MainPointDescription">
+    <inCategory category="list"/>
+    <inCategory category="process"/>
+    <inCategory category="cycle"/>
+    <inCategory category="pyramid"/>
+    <inCategory category="relationship"/>
+    <inCategory category="matrix"/>
+    <inCategory category="hierarchy"/>
+    <info>Platzhaltertyp: Text
+      Hier wird der eigentliche Inhalt, welcher in der Grafik dargestellt ist, eingefügt.</info>
+  </Placeholder>
+  <Placeholder name="#links/rechts#" descType="MainPointDescription">
+    <inCategory category="relationship"/>
+    <info>Platzhaltertyp: "links" oder "rechts"
+      Dieser Platzhalter wird später mit einem der obrigen Wörter ersetzt und bezeichnet die Position der Hauptpunkte.</info>
+  </Placeholder>
+  <Placeholder name="#XYposition#" descType="MainPointDescription">
+    <inCategory category="matrix"/>
+    <info>Platzhaltertype: "oben links", "oben rechts", "unten links" oder "unten links"
+      Achtung: Dieser Platzhalter macht nur Sinn, wenn 4 Hauptpunkte vorhanden sind.</info>
+  </Placeholder>
+  
+  <Placeholder name="#InhaltUnterpunkt#" descType="SubPointDescription">
+    <inCategory category="list"/>
+    <inCategory category="process"/>
+    <inCategory category="cycle"/>
+    <inCategory category="pyramid"/>
+    <inCategory category="relationship"/>
+    <inCategory category="matrix"/>
+    <inCategory category="hierarchy"/>
+    <info>Platzhaltertyp: Text
+      Hier wird der eigentliche Inhalt, welcher in der Grafik dargestellt ist, eingefügt.</info>
+  </Placeholder>
+  <Placeholder name="#Level#" descType="SubPointDescription">
+    <inCategory category="list"/>
+    <inCategory category="process"/>
+    <inCategory category="cycle"/>
+    <inCategory category="pyramid"/>
+    <inCategory category="matrix"/>
+    <inCategory category="hierarchy"/>
+    <info>Platzhaltertyp: ganze positive Zahl
+      Dieser Platzhalter wird durch die Levelzahl des speziellen Punktes ersetzt. 
+      Der Hauptpunkt entspricht Level 1.</info>
+  </Placeholder>
+  <Placeholder name="#XYposition#" descType="SubPointDescription">
+    <inCategory category="matrix"/>
+    <info>Platzhaltertype: "oben links", "oben rechts", "unten links" oder "unten links"
+      Achtung: Dieser Platzhalter macht nur Sinn, wenn 4 Unterpunkte und nur 1 Hauptpunkt vorhanden sind.</info>
+  </Placeholder>
+  <Placeholder name="#Leveldarueber#" descType="SubPointDescription">
+    <inCategory category="hierarchy"/>
+    <info>Platzhaltertyp: ganze positive Zahl
+      Dieser Platzhalter wird durch die Levelzahl des speziellen Elternpunktes ersetzt.</info>
+  </Placeholder>
+  <Placeholder name="#Farbe#" descType="SubPointDescription">
+    <inCategory category="hierarchy"/>
+    <inCategory category="list"/>
+    <info>Platzhaltertyp: Wort
+      Dieser Platzhalter wird durch das Farbwort der Hintergrundfarbe der umgebenden Form ersetzt.</info>
+  </Placeholder>
+</AllInfos>
